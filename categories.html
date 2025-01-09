@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fil Savories</title>
+    <!-- link to Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- link to JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<!-- Add style -->
+	<link rel="stylesheet" type="text/css" href="style.css">	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.pinimg.com/736x/75/a0/cd/75a0cdd98d900200159237f0e48dbe52.jpg" alt="Logo" width="100" height="100" class="logo d-inline-block align-text-top rounded-circle">
+                Fil Savories
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="submit.html">Submit Recipe</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+        <!-- Snacks -->
+        <div class="container mt-5">
+            <div class="row align-items-start">
+            <div class="col-md-4">
+                <div class="title-section title-snacks">
+                <h5>Snacks</h5>
+                <p>Find quick and tasty snacks to enjoy any time of the day.</p>
+                </div>
+                <div class="card">
+                <div class="card-image">
+                    <img src="https://i0.wp.com/iankewks.com/wp-content/uploads/2023/08/img_6516.jpg?resize=800%2C530&ssl=1" alt="Puto" />
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title">Puto</h6>
+                    <p>A Filipino snack, also known as steamed cake.</p>
+                    <a href="Puto.html" class="btn btn-view-recipe">View Recipe</a>
+                </div>
+                </div>
+                <div class="card mt-5">
+                    <div class="card-image">
+                        <img src="bananacue.jpg" alt="bananacue" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Banana cue</h6>
+                        <p>Deep fried bananas!</p>
+                        <a href="bananacue.html" class="btn btn-view-recipe">View Recipe</a>
+                    </div>
+                    </div>
+            </div>
+    
+          <!-- Dishes -->
+          <div class="col-md-4">
+            <div class="title-section title-dishes">
+              <h5>Dishes</h5>
+              <p>Delicious main dishes for lunch and dinner to satisfy your appetite.</p>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="sinigang.jpg" alt="sinigang" />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Sinigang</h6>
+                <p>A sour soup!</p>
+                <a href="sinigang.html" class="btn btn-view-recipe">View Recipe</a>
+              </div>
+            </div>
+            <div class="card mt-5">
+                <div class="card-image">
+                  <img src="sisig.jpg" alt="sisig" />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">Sisig</h6>
+                  <p>This is usually a favorite dish for pulutan.</p>
+                  <a href="sisig.html" class="btn btn-view-recipe">View Recipe</a>
+                </div>
+              </div>
+          </div>
+    
+          <!-- Desserts -->
+          <div class="col-md-4">
+            <div class="title-section title-desserts">
+              <h5>Desserts</h5>
+              <p>Sweet treats and desserts to end your meal on a high note.</p>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                  <img src="halohalo.jpg" alt="halo-halo" />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">Halo-halo</h6>
+                  <p>The most refreshing dessert.</p>
+                  <a href="halohalo.html" class="btn btn-view-recipe">View Recipe</a>
+                </div>
+              </div>
+              <div class="card mt-5">
+                <div class="card-image">
+                  <img src="lecheflan.jpg" alt="lecheflan" />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">Leche Flan</h6>
+                  <p>A delicious custard dessert, also known as Creme Caramel.</p>
+                  <a href="lecheflan.html" class="btn btn-view-recipe">View Recipe</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    
+      <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>Maria Sofia Giana L. Navarro || 9-Emerald</p>
+    </footer>
+  
+
+</body>
+</html>
